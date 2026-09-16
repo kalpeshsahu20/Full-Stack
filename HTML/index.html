@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Forms</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend align ="center">Basic form</legend>
+        <form>
+      <label for="Full Name">Full name: </label>
+      <input
+        type="text"
+        name="Your Name"
+        id="Full Name"
+        placeholder="Your Name"
+      />
+      <br /><br />
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="Email" />
+
+      <br />
+      <br />
+      
+      <label for="password"> Password:</label>
+      <input
+        type="password"
+        name="Password"
+        id="password"
+        placeholder="Your password"
+      />
+
+      <br />
+      <br />
+
+      <label for="cfpassword">Confirm Password</label>
+      <input
+        type="password"
+        name="cfpassword"
+        id="cfpassword"
+        placeholder="Confirm password"
+      />
+      <br /><br />
+
+      <label for="dob"> Date of Birth</label>
+      <input type="date" name="dob" id="dob" />
+      <br /><br />
+
+       <label for="time"> Birth time</label>
+       <input type="time">
+       <br /><br />
+
+       <label for="joining time"> Joining time</label>
+      <input 
+            type="datetime-local"
+            name="joining time" 
+            id="joining time" 
+        />
+      <br /><br />
+
+      <label for="volume"> Volume</label>
+      <input type="range" name="volume" id="volume" min="0" max="10" value="1">
+      <br /><br />
+
+        <label for="mobile">Phone Number
+            <input type="number" name="number" id="number">
+        </label>
+<br><br>
+        <label for="age">Your age</label>
+        <input type="number" name="age" id="age" min="0" max="100">
+    </form>
+<br /><br />
+
+<label for="resume ">Resume</label>
+<input type="file" name="resume" id="resume">
+
+<br /><br />
+
+<label for="address">Your Address</label>
+<textarea name="text" id="address"></textarea>
+<br /><br />
+
+<label for="course">Course: </label>
+<select name="course" id="course">
+    <option value="">--Select Course</option>
+    <option value="b.tech">B.tech</option>
+    <option value="bba">BBA</option>
+    <option value="bsc">BSc</option>
+
+</select>
+<br /><br />
+<label for="gender"> Gender: </label>
+<input type="radio" name="gender" id="male" value="male">
+<span>MALE</span>
+<input type="radio" name="gender" id="female" value="female">
+<span>FEMALE</span>
+<input type="radio" name="gender" id="other" value="other">
+<span>OTHER</span>
+<br /><br />
+
+<label for="skills"> Skills set</label>
+<input type="checkbox" name="skills" id="java" value="java">
+<span>Java</span>
+<input type="checkbox" name="skills" id="dsa" value="dsa">
+<span>DSA</span>
+<input type="checkbox" name="skills" id="c" value="c">
+<span>C</span>
+<input type="checkbox" name="skills" id="html" value="html">
+<span>HTML</span>
+
+
+</html>
