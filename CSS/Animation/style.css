@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#dabba{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+
+
+}
+
+@keyframes Kalpesh{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}

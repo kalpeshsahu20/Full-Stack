@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#id{
+    width: 420px;
+    border: 3px solid black;
+    height: 2.5rem;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+    transition:  width 1.5s ;
+    background-color: burlywood;
+     color: black;
+     
+}
+#id:hover{
+    width :800px;
+    transition: width 1.5s;
+    background-color: black;
+    color:burlywood;
+   
+
+}
+
+#welcome::after{
+    
+    color: red;
+    
+}
+#welcome::after{
+    content:"❤️";
+}
+
+#welcome::before{
+    color: aqua;
+}
