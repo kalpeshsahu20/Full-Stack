@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#badabox{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    /* align-items: center; */
+          flex-direction: column;
+}
+
+.box{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+          flex-direction: column;
+    
+}
+@media screen and (max-width:1000px)
+{
+    #badabox{
+        grid-template-columns: auto auto;
+        flex-direction: column;
+        row-gap: 20px;
+    }   
+}
+
+
