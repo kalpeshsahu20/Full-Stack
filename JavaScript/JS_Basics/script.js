@@ -1,3 +1,21 @@
+
+//window me add hota hai
+//function scoped hota hai
+//we can declare var by same name again and it gives no error
+
+var a = 14;
+var a = 144;
+
+
+//we can declare and intialize it only once in a program
+let k = 12;
+
+
+//this remains same in all over program
+const a = 12;
+
+
+
 let a= 5;
 let n="Kalpesh";
 console.log(a);
