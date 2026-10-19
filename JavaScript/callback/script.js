@@ -17,3 +17,14 @@ sum(5,6,add);
 
 // answer 32
 
+// const coursediv = document.getElementById("cousrse");
+// console.log(coursediv);
+// const.log (coursediv);
+
+// const heading = DocumentFragment.querySelector("h2");
+
+// console.log(heading);
+
+
+// console.log(heading.parentElement.firstElementChild);
+// console.log(headinng.parentElement.children);
