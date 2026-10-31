@@ -29,8 +29,6 @@ const college=[
 
 
 
-
-
 console.log(college);
 
 
