@@ -12,11 +12,20 @@ let k = 12;
 
 
 //this remains same in all over program
-const a = 12;
+const aa = 12;
 
 
 
-let a= 5;
+
+// var is only functioned scoped , no matters it again declared inside the block scoped
+var z = 12;
+{
+    var z= 24;
+}
+console.log(z);
+
+
+let az= 5;
 let n="Kalpesh";
 console.log(a);
 console.log(n);
