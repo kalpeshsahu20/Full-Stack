@@ -1,26 +1,35 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Validation</title>
 </head>
 <body>
-    
-    <form>
-        <div>
-            <label for="username">User Name</label>
-            <input type="text" name="username" id="username">
-        </div>
-        <div>
-            <label for="password"> Password</label>
-            <input type="password" name="password" id="password"/>
 
-        </div>
-        <div>
-            <button type="submit">Submit</button>
-        </div>
+    <h2>Registration Form</h2>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter Name">
+        <br><br>
+
+        <input type="email" id="email" placeholder="Enter Email">
+        <br><br>
+
+        <input type="password" id="password" placeholder="Enter Password">
+        <br><br>
+
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <br><br>
+
+        <input type="text" id="mobile" placeholder="Enter Mobile Number">
+        <br><br>
+
+        <button type="submit">Register</button>
     </form>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
-
