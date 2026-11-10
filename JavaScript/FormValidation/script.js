@@ -17,27 +17,26 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
         return;
     }
 
-    // Email validation
-    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+   
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  // regular expression
 
     if (!emailPattern.test(email)) {
         message.innerText = "Enter a valid email!";
         return;
     }
 
-    // Password validation
+
     if (password.length < 8) {
         message.innerText = "Password must be at least 8 characters!";
         return;
     }
 
-    // Confirm password validation
+   
     if (password !== confirmPassword) {
         message.innerText = "Passwords do not match!";
         return;
     }
 
-    // Mobile number validation
     let mobilePattern = /^[0-9]{10}$/;
 
     if (!mobilePattern.test(mobile)) {
