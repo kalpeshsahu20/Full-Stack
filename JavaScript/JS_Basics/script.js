@@ -11,8 +11,23 @@ var a = 144;
 let k = 12;
 
 
-//this remains same in all over program
+//this remains same(constant) in all over program
 const aa = 12;
+
+
+
+
+// dynamic typing in javascript
+let kal = 13;
+kal = true;
+kal = [];
+kal = "dynamic typing";
+console.log(kal);
+
+
+//ternary operator
+
+112>14 ? console.log("true comparison") : console.log("false comparison")
 
 
 
