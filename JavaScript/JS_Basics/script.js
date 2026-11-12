@@ -40,7 +40,7 @@ var z = 12;
 console.log(z);
 
 
-let az= 5;
+let ma= 5;
 let n="Kalpesh";
 console.log(a);
 console.log(n);
