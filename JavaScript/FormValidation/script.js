@@ -11,7 +11,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
     let message = document.getElementById("message");
 
-    // Name validation
+    // name validation
     if (name === "") {
         message.innerText = "Name is required!";
         return;
