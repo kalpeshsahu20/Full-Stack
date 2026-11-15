@@ -4,8 +4,11 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
     let name = document.getElementById("name").value.trim();
+
     let email = document.getElementById("email").value.trim();
+
     let password = document.getElementById("password").value;
+    
     let confirmPassword = document.getElementById("confirmPassword").value;
     let mobile = document.getElementById("mobile").value.trim();
 
