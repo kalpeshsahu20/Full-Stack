@@ -21,7 +21,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     }
 
    
-    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  // regular expression
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  // achived by regular expression
 
     if (!emailPattern.test(email)) {
         message.innerText = "Enter a valid email!";
