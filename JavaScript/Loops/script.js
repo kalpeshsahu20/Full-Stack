@@ -17,14 +17,16 @@ while(i<16){
 }
 
 
-let count =0 ;
+let count = 0 ;
 for(let i =0;i<101;i++){
     count +=i;
 }
 console.log(count);
 
-for(let u =0;u<51;u++){
-    if(u%3===0){
+for(let u =0;u<51;u++)
+    {
+        if(u%3===0)
+    {
         console.log(u);
     }
 }
