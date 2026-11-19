@@ -12,4 +12,9 @@ let arr1=[12,23,3,45,6,4,35];
 arr.forEach((element)=>{
     console.log(element);
 
+    
+    
+    
+
+
 });
