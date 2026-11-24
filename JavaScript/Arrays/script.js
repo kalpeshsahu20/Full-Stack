@@ -15,3 +15,13 @@ arr.forEach((element)=>{
     
 
 });
+
+
+
+let arr2=[112,23,3,45,6,45,35];
+arr.forEach((element)=>{
+    console.log(element);
+
+    
+
+});
