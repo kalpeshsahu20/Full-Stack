@@ -9,10 +9,9 @@ for(let i =0;i<arr.length;i++)
 
 
 let arr1=[12,23,3,45,6,4,35];
-arr.forEach((element)=>{
+arr.forEach((element)=>
+{
     console.log(element);
-
-    
 
 });
 
@@ -20,8 +19,6 @@ arr.forEach((element)=>{
 
 let arr2=[112,23,3,45,6,45,787,35];
 arr.forEach((element)=>{
-    console.log(element);
-
-    
+    console.log(element);   
 
 });

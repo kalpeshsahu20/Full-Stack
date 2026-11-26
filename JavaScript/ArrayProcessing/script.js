@@ -17,8 +17,6 @@ var s = arr3.sort();
 console.log("Sorting=",s);
 
 
-
-
 let arr1 = [10, ,12,224,35,57,8,20, 30, 40, 50];
 
 let max = arr1[0];
