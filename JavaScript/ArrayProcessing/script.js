@@ -9,7 +9,6 @@ var F = arr.filter((item)=> item!==99);
 
 console.log("F=",arr)
 
-
 const arr3 = [2,25,1,17,9,0];
 
 var s = arr3.sort();
